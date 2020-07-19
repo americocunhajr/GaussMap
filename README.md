@@ -14,7 +14,7 @@ This code was developed to conduct simulations of a generalized version of the c
 ## Authors
 - Americo Cunha
 
-## Citing
+## Citing GaussMap
 
 We kindly ask users to cite the following reference in any publications reporting work done with **GaussMap**:
 - *A. Cunha Jr ...*
