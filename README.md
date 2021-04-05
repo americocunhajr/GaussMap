@@ -1,6 +1,6 @@
 <img src="logo/GaussMap.png" width="40%">
 
-**GaussMap** is an easy to run code to simulate the chaotic dynamics of a generalized version of the classical Gauss Iterated Map. The implementation follows an educational style, to make its use very intuitive.
+**GaussMap** is an easy-to-run code to simulate the chaotic dynamics of a generalized version of the classical Gauss Iterated Map. The implementation follows an educational style, to make its use very intuitive.
 
 ## Software History
 
