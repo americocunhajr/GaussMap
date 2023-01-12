@@ -15,7 +15,7 @@ https://hal.archives-ouvertes.fr/hal-02388470
 **GaussMap** routines are commented in order to explain their functionality to the final user. Each routine has a short description about its purpose, and a list of inputs and/or outputs.
 
 ## Authors
-- Americo Cunha
+- Americo Cunha Jr
 
 ## Citing GaussMap
 
