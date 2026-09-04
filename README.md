@@ -29,13 +29,37 @@ cd GaussMap
 
 ### Research
 
-The mathematical formulation and dynamical properties underlying
-**GaussMap** are described in:
+The **generalized Gaussian iterated map** is a nonlinear discrete-time
+dynamical system defined by
+
+\[
+x_{n+1}=f(x_n),
+\qquad
+f(x)=\gamma e^{-\alpha(x-\delta)^2}+\beta,
+\]
+
+where \(\alpha>0\) and \(\beta,\gamma,\delta\in\mathbb{R}\).
+
+This four-parameter family generalizes the classical Gaussian map and
+provides a simple low-dimensional model with remarkably rich dynamics.
+Depending on the parameter values, the system may exhibit fixed points,
+periodic orbits, bifurcations, strange attractors, and deterministic chaos.
+
+Gaussian nonlinearities arise naturally in several applications, including
+nonlinear filtering, optical systems, neural computation, and localized
+amplification mechanisms. The generalized map therefore provides a useful
+setting for investigating fundamental phenomena in nonlinear dynamics while
+retaining a compact and analytically tractable mathematical form.
+
+**GaussMap** provides a computational implementation of this system,
+allowing users to simulate trajectories, vary the model parameters, and
+explore its dynamical regimes numerically.
+
+The mathematical formulation and detailed analysis are presented in:
 
 > **A. Cunha Jr**, *The generalized Gaussian iterated map*, 2026.
 
 **Preprint:** [arXiv:XXXX.XXXXX](https://arxiv.org/)
-
 ### Documentation
 
 The source code is extensively commented and intended to be easy to
