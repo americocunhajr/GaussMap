@@ -1,3 +1,6 @@
+## Gaussian Iterated Map
+
+
 <img src="logo/GaussMap.png" width="40%">
 
 **GaussMap** is a lightweight code for simulating and visualizing the
@@ -7,7 +10,7 @@ Designed with clarity and reproducibility in mind, the implementation
 provides a simple computational framework for exploring the dynamics
 of this nonlinear system.
 
-## Quick Start
+### Quick Start
 
 Get a local copy of **GaussMap** by cloning the repository:
 
@@ -16,7 +19,7 @@ git clone https://github.com/americocunhajr/GaussMap.git
 cd GaussMap
 ```
 
-## Features
+### Features
 
 - Simulation of the generalized Gaussian iterated map
 - Visualization of its nonlinear and chaotic dynamics
@@ -24,7 +27,7 @@ cd GaussMap
 - Fully commented routines
 - Suitable for research, teaching, and numerical experimentation
 
-## Research
+### Research
 
 The mathematical formulation and dynamical properties underlying
 **GaussMap** are described in:
@@ -33,7 +36,7 @@ The mathematical formulation and dynamical properties underlying
 
 **Preprint:** [arXiv:XXXX.XXXXX](https://arxiv.org/)
 
-## Documentation
+### Documentation
 
 The source code is extensively commented and intended to be easy to
 read and modify.
@@ -47,11 +50,11 @@ Each routine includes:
 The code can therefore be used both as a research tool and as an
 educational implementation of the generalized Gaussian map.
 
-## Author
+### Author
 
 **Americo Cunha Jr**
 
-## Citation
+### Citation
 
 If **GaussMap** contributes to your research, please cite:
 
@@ -66,7 +69,7 @@ If **GaussMap** contributes to your research, please cite:
 }
 ```
 
-## License
+### License
 
 **GaussMap** is released under the MIT license. See the LICENSE file for details.
 
@@ -78,7 +81,7 @@ Contributions are welcome and are distributed under the same license.
 
 <img src="logo/logo_uerj.png" width="10%"> &nbsp; &nbsp; <img src="logo/logo_lncc.png" width="25%">
 
-## Funding
+### Funding
 
 <img src="logo/faperj.png" width="20%">
 &nbsp;&nbsp;
