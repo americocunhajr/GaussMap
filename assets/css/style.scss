@@ -80,56 +80,125 @@ small {
 
 @media (prefers-color-scheme: dark) {
 
-  /* Download buttons */
+  :root {
+    --bg:       #0d1117;
+    --panel:    #161b22;
+    --panel-2:  #21262d;
+    --border:   #30363d;
+
+    --text:     #c9d1d9;
+    --muted:    #8b949e;
+    --heading:  #f0f6fc;
+
+    --link:     #58a6ff;
+    --accent:   #f8516c;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  /* Titles */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--heading);
+  }
+
+  /* Main GaussMap title, if it is an h1 */
+  h1 {
+    color: var(--accent);
+  }
+
+  p, li {
+    color: var(--text);
+  }
+
+  strong {
+    color: var(--heading);
+  }
+
+  small {
+    color: var(--muted);
+  }
+
+  /* Links */
+  a {
+    color: var(--link);
+  }
+
+  a:hover {
+    color: #79c0ff;
+  }
+
+  /* Download / GitHub buttons */
   .downloads {
-    background: #1b1f24;
-    border: 1px solid #30363d;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
   }
 
   .downloads li {
-    border-right: 1px solid #30363d;
+    border-right: 1px solid var(--border);
+  }
+
+  .downloads li:last-child {
+    border-right: none;
   }
 
   .downloads a {
-    background: #1b1f24;
-    color: #c9d1d9;
+    background: transparent;
+    color: var(--text);
   }
 
   .downloads a strong {
-    color: #f0f6fc;
+    color: var(--heading);
   }
 
-  .downloads a:hover,
-  .downloads a:focus {
-    background: #262c33;
-    color: #58a6ff;
-    font-weight: normal;
+  .downloads a:hover {
+    background: var(--panel-2);
+    color: var(--link);
   }
 
-  .downloads a:hover strong,
-  .downloads a:focus strong {
-    color: #58a6ff;
+  .downloads a:hover strong {
+    color: var(--link);
   }
 
-  .downloads a:active {
-    background: #30363d;
-  }
-
-  /* Citation / BibTeX box */
+  /* BibTeX / code blocks */
   pre {
-    background: #161b22;
-    border: 1px solid #30363d;
-    color: #c9d1d9;
+    background: var(--panel) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 6px;
+    color: var(--text) !important;
   }
 
   pre code {
-    background: transparent;
-    color: #c9d1d9;
+    background: transparent !important;
+    color: var(--text) !important;
   }
 
-  /* Inline code */
   code {
-    background: #1b1f24;
-    color: #c9d1d9;
+    background: var(--panel-2) !important;
+    color: #e6edf3 !important;
   }
+
+  /* Quotes */
+  blockquote {
+    color: var(--muted);
+    border-left-color: var(--border);
+  }
+
+  /* Tables */
+  table {
+    color: var(--text);
+  }
+
+  th, td {
+    border-bottom-color: var(--border);
+  }
+
+  /* Separators */
+  hr {
+    background: var(--border);
+  }
+
 }
