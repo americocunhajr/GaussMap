@@ -39,5 +39,5 @@ year      = {2026},
 
 <img src="logo/faperj.png" width="20%"> &nbsp; &nbsp; <img src="logo/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logo/capes.png" width="10%">
 
-## Other publications about the generalized Gaussian map:
+## Other publications:
 - *M. Tosin, M. V. Issa, D. M. S. Lopes, A. Nascimento, and A. Cunha Jr, Employing 0-1 test for chaos to characterize the chaotic dynamics of a generalized Gauss iterated map, In: XIV Conferência Brasileira de Dinâmica, Controle e Aplicações (DINCON 2019), 2019, https://hal.archives-ouvertes.fr/hal-02388470*
