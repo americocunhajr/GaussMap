@@ -1,0 +1,78 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Dark mode */
+
+body {
+  background-color: #121212;
+  color: #d8d8d8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f0f0f0;
+}
+
+a {
+  color: #58a6ff;
+}
+
+a:hover {
+  color: #79b8ff;
+}
+
+strong {
+  color: #ffffff;
+}
+
+code {
+  background-color: #1e1e1e;
+  color: #e6e6e6;
+}
+
+pre {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+blockquote {
+  border-left-color: #444;
+  color: #aaa;
+}
+
+hr {
+  background: #333;
+}
+
+table {
+  color: #ddd;
+}
+
+th,
+td {
+  border-bottom-color: #333;
+}
+
+/* botões Download ZIP / TAR / GitHub */
+
+.downloads {
+  background: #1e1e1e;
+  border-color: #333;
+}
+
+.downloads li {
+  border-right-color: #333;
+}
+
+.downloads a {
+  color: #ddd;
+}
+
+.downloads a:hover {
+  color: #fff;
+}
+
+small {
+  color: #aaa;
+}
