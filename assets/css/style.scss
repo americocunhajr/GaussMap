@@ -76,3 +76,60 @@ td {
 small {
   color: #aaa;
 }
+
+
+@media (prefers-color-scheme: dark) {
+
+  /* Download buttons */
+  .downloads {
+    background: #1b1f24;
+    border: 1px solid #30363d;
+  }
+
+  .downloads li {
+    border-right: 1px solid #30363d;
+  }
+
+  .downloads a {
+    background: #1b1f24;
+    color: #c9d1d9;
+  }
+
+  .downloads a strong {
+    color: #f0f6fc;
+  }
+
+  .downloads a:hover,
+  .downloads a:focus {
+    background: #262c33;
+    color: #58a6ff;
+    font-weight: normal;
+  }
+
+  .downloads a:hover strong,
+  .downloads a:focus strong {
+    color: #58a6ff;
+  }
+
+  .downloads a:active {
+    background: #30363d;
+  }
+
+  /* Citation / BibTeX box */
+  pre {
+    background: #161b22;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+  }
+
+  pre code {
+    background: transparent;
+    color: #c9d1d9;
+  }
+
+  /* Inline code */
+  code {
+    background: #1b1f24;
+    color: #c9d1d9;
+  }
+}
