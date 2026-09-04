@@ -32,13 +32,13 @@ cd GaussMap
 The **generalized Gaussian iterated map** is a nonlinear discrete-time
 dynamical system defined by
 
-\[
+$$
 x_{n+1}=f(x_n),
 \qquad
 f(x)=\gamma e^{-\alpha(x-\delta)^2}+\beta,
-\]
+$$
 
-where \(\alpha>0\) and \(\beta,\gamma,\delta\in\mathbb{R}\).
+where $\alpha>0$ and $\beta,\gamma,\delta\in\mathbb{R}$.
 
 This four-parameter family generalizes the classical Gaussian map and
 provides a simple low-dimensional model with remarkably rich dynamics.
@@ -60,6 +60,7 @@ The mathematical formulation and detailed analysis are presented in:
 > **A. Cunha Jr**, *The generalized Gaussian iterated map*, 2026.
 
 **Preprint:** [arXiv:XXXX.XXXXX](https://arxiv.org/)
+
 ### Documentation
 
 The source code is extensively commented and intended to be easy to
