@@ -130,38 +130,56 @@ small {
     color: #79c0ff;
   }
 
-  /* Download / GitHub buttons */
-  .downloads {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-  }
+  /* Download buttons */
 
-  .downloads li {
-    border-right: 1px solid var(--border);
-  }
+ul.downloads {
+  background: #161b22 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: none;
+}
 
-  .downloads li:last-child {
-    border-right: none;
-  }
+ul.downloads li {
+  background: transparent !important;
+  border-right: 1px solid #30363d !important;
+}
 
-  .downloads a {
-    background: transparent;
-    color: var(--text);
-  }
+ul.downloads li:last-child {
+  border-right: none !important;
+}
 
-  .downloads a strong {
-    color: var(--heading);
-  }
+ul.downloads li a {
+  background: #161b22 !important;
+  color: #8b949e !important;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
 
-  .downloads a:hover {
-    background: var(--panel-2);
-    color: var(--link);
-  }
+ul.downloads li a strong {
+  color: #e6edf3 !important;
+  font-weight: 600;
+}
 
-  .downloads a:hover strong {
-    color: var(--link);
-  }
+/* Hover */
+ul.downloads li a:hover,
+ul.downloads li a:focus {
+  background: #21262d !important;
+  color: #58a6ff !important;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+ul.downloads li a:hover strong,
+ul.downloads li a:focus strong {
+  color: #58a6ff !important;
+}
+
+/* Click */
+ul.downloads li a:active {
+  background: #30363d !important;
+}
 
   /* BibTeX / code blocks */
   pre {
