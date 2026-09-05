@@ -59,7 +59,8 @@ The mathematical formulation and detailed analysis are presented in:
 
 > **A. Cunha Jr**, *The generalized Gaussian iterated map*, 2026.
 
-**Preprint:** [arXiv:XXXX.XXXXX](https://arxiv.org/)
+**Preprint:** [arXiv:XXXX.XXXXX](https://arxiv.org/), [ResearchGate](https://doi.org/10.13140/RG.2.2.33453.24804)
+
 
 ### Documentation
 
