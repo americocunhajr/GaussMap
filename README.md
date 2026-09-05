@@ -32,11 +32,9 @@ cd GaussMap
 The **generalized Gaussian iterated map** is a nonlinear discrete-time
 dynamical system defined by
 
-$
-x_{n+1}=f(x_n),
+$x_{n+1}=f(x_n),
 \qquad
-f(x)=\gamma e^{-\alpha(x-\delta)^2}+\beta,
-$
+f(x)=\gamma e^{-\alpha(x-\delta)^2}+\beta,$
 
 where $\alpha>0$ and $\beta,\gamma,\delta\in\mathbb{R}$.
 
