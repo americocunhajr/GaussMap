@@ -1,7 +1,9 @@
 ## Gaussian Iterated Map
 
+<p align="center">
+<img src="logo/GaussMap-Cover.png" width="80%">
+</p>
 
-<img src="logo/GaussMap.png" width="40%">
 
 **GaussMap** is a lightweight code for simulating and visualizing the
 chaotic dynamics of a generalized Gaussian iterated map.
