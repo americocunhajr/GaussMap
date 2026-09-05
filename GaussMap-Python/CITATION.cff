@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these codes, please cite the associated manuscript."
+title: "GaussMap figure-generation codes for The Generalized Gaussian Iterated Map"
+type: software
+authors:
+  - family-names: "Cunha Jr"
+    given-names: "Americo"
+version: "1.0.0"
+date-released: "2026-09-04"
+url: "https://americocunhajr.github.io/GaussMap"
+repository-code: "https://github.com/americocunhajr/GaussMap"
+preferred-citation:
+  type: article
+  title: "The Generalized Gaussian Iterated Map"
+  authors:
+    - family-names: "Cunha Jr"
+      given-names: "Americo"
+  year: 2026
+  notes: "Manuscript prepared for submission to the SIAM Journal on Applied Dynamical Systems (SIADS)."
